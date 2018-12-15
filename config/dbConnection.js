@@ -1,6 +1,7 @@
 const mysql = require('mysql')
 
-module.exports = function(){
+let connMysql = function(){
+    console.log('the connection to the database was initialized')
     return mysql.createConnection({
         host: 'localhost',
         user: 'zaidoh',
@@ -9,3 +10,6 @@ module.exports = function(){
      })
 }
         
+module.exports = function(){
+    return connMysql
+}
