@@ -4,4 +4,4 @@
 - Ganhando produtividade com o NPM, Express, EJS e Nodemon.
 - Modulando nosso projeto com CommonJS.
 - Conectando ao banco de dados MySQ.
-- odels e ganhando produtividade com Consign (sucessor do Express-Load).
+- Models e ganhando produtividade com Consign (sucessor do Express-Load).
